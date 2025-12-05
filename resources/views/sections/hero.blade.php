@@ -1,50 +1,46 @@
 <!-- Hero Section -->
-    <section id="hero" class="hero section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4 align-items-center">
-          <div class="col-lg-6 order-2 order-lg-1">
-            <div class="hero-content">
-              <h1 data-aos="fade-up" data-aos-delay="200">Hello, I'm <span class="highlight">Brendon Panlaqui</span></h1>
-              <h2 data-aos="fade-up" data-aos-delay="300">Aspiring <span class="typed" data-typed-items="Mobile App Developer, Web Developer, Software Engineer, AI Engineer"></span></h2>
-              <p data-aos="fade-up" data-aos-delay="400">I’m passionate about creating responsive, user-friendly websites and turning ideas into functional digital experiences. With a growing foundation in web technologies, I’m constantly learning and exploring new tools to build modern, meaningful web solutions.</p>
-              <div class="hero-actions" data-aos="fade-up" data-aos-delay="500">
-                <a href="portfolio.html" class="btn btn-primary">View My Projects</a>
-                <a href="contact.html" class="btn btn-outline">Get In Touch</a>
-              </div>
-              <div class="social-links" data-aos="fade-up" data-aos-delay="600">
-                <a href="#"><i class="bi bi-twitter"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-                <a href="#"><i class="bi bi-github"></i></a>
-                <a href="#"><i class="bi bi-dribbble"></i></a>
-              </div>
+  <section id="hero" class="hero section">
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="row gy-4 align-items-center">
+        <div class="col-lg-6 order-2 order-lg-1">
+          <div class="hero-content">
+            <h1 data-aos="fade-up" data-aos-delay="200">Hello, I'm <span class="highlight">Brendon Panlaqui</span></h1>
+            <h2 data-aos="fade-up" data-aos-delay="300">Aspiring <span class="typed" data-typed-items="Mobile App Developer, Web Developer, Software Engineer, AI Engineer"></span></h2>
+            <p data-aos="fade-up" data-aos-delay="400">I’m passionate about creating responsive, user-friendly websites and turning ideas into functional digital experiences. With a growing foundation in web technologies, I’m constantly learning and exploring new tools to build modern, meaningful web solutions.</p>
+            <div class="hero-actions" data-aos="fade-up" data-aos-delay="500">
+              <a href="portfolio.html" class="btn btn-primary">View My Projects</a>
+              <a href="contact.html" class="btn btn-outline">Get In Touch</a>
+            </div>
+            <div class="social-links" data-aos="fade-up" data-aos-delay="600">
+              <a href="#"><i class="bi bi-twitter"></i></a>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+              <a href="#"><i class="bi bi-github"></i></a>
+              <a href="#"><i class="bi bi-dribbble"></i></a>
             </div>
           </div>
-          <div class="col-lg-6 order-1 order-lg-2">
-            <div class="hero-image" data-aos="zoom-in" data-aos-delay="300">
-              <div class="image-wrapper">
-                <img src="assets/img/profile/profile-side.jpg" alt="Sarah Mitchell" class="img-fluid">
-                <div class="floating-elements">
-                  <div class="floating-card design" data-aos="fade-left" data-aos-delay="700">
-                    <i class="bi bi-palette"></i>
-                    <span>Design</span>
-                  </div>
-                  <div class="floating-card code" data-aos="fade-right" data-aos-delay="800">
-                    <i class="bi bi-code-slash"></i>
-                    <span>Code</span>
-                  </div>
-                  <div class="floating-card creativity" data-aos="fade-up" data-aos-delay="900">
-                    <i class="bi bi-lightbulb"></i>
-                    <span>Ideas</span>
-                  </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2">
+          <div class="hero-image" data-aos="zoom-in" data-aos-delay="300">
+            <div class="image-wrapper">
+              <img src="assets/img/profile/profile-side.jpg" alt="Sarah Mitchell" class="img-fluid">
+              <div class="floating-elements">
+                <div class="floating-card design" data-aos="fade-left" data-aos-delay="700">
+                  <i class="bi bi-palette"></i>
+                  <span>Design</span>
+                </div>
+                <div class="floating-card code" data-aos="fade-right" data-aos-delay="800">
+                  <i class="bi bi-code-slash"></i>
+                  <span>Code</span>
+                </div>
+                <div class="floating-card creativity" data-aos="fade-up" data-aos-delay="900">
+                  <i class="bi bi-lightbulb"></i>
+                  <span>Ideas</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
       </div>
-
-    </section>
+    </div>
+  </section>
 <!-- /Hero Section -->
