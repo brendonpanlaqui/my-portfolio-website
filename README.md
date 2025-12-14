@@ -72,10 +72,11 @@ Ensure you have the following installed:
     ```
 
 6.  **Database Setup**
+7.  '''bash
     php artisan migrate
     ```
 
-7.  **Run the Application**
+8.  **Run the Application**
     Start the local development server:
     ```bash
     php artisan serve
