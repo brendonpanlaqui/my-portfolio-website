@@ -72,6 +72,7 @@ Ensure you have the following installed:
     ```
 
 6.  **Database Setup**
+    ```bash
     php artisan migrate
     ```
 
