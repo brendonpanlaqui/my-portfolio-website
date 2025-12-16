@@ -8,8 +8,8 @@
             <h2 data-aos="fade-up" data-aos-delay="300">Aspiring <span class="typed" data-typed-items="Mobile App Developer, Web Developer, Software Engineer, AI Engineer"></span></h2>
             <p data-aos="fade-up" data-aos-delay="400">I’m passionate about creating responsive, user-friendly websites and turning ideas into functional digital experiences. With a growing foundation in web technologies, I’m constantly learning and exploring new tools to build modern, meaningful web solutions.</p>
             <div class="hero-actions" data-aos="fade-up" data-aos-delay="500">
-              <a href="portfolio.html" class="btn btn-primary">View My Projects</a>
-              <a href="contact.html" class="btn btn-outline">Get In Touch</a>
+              <a href="#projects" class="btn btn-primary">View My Projects</a>
+              <a href="#contact" class="btn btn-outline">Get In Touch</a>
             </div>
             <div class="social-links" data-aos="fade-up" data-aos-delay="600">
               <a href="#"><i class="bi bi-twitter"></i></a>

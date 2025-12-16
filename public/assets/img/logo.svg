@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 40" height="40">
+  <g transform="translate(0, 2)">
+    <rect width="36" height="36" rx="8" fill="#6366f1"/>
+    <path d="M10 11 L18 18 L10 25" stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <rect x="21" y="21" width="6" height="4" fill="#ffffff"/>
+  </g>
+
+  <text x="48" y="29" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="24" fill="#f8fafc" letter-spacing="-0.5px">
+    Brendon.
+  </text>
+</svg>
