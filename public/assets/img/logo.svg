@@ -6,6 +6,6 @@
   </g>
 
   <text x="48" y="29" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="24" fill="#f8fafc" letter-spacing="-0.5px">
-    Brendon.
+    Brendon<tspan fill="#6366f1">.</tspan>
   </text>
 </svg>
