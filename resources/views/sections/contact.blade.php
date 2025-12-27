@@ -3,7 +3,9 @@
   <div class="container section-title" data-aos="fade-up">
     <h2>Contact Me</h2>
     <p>Have a project in mind? Let's build something awesome together! I’m currently open to new opportunities and collaborations.</p>
-  </div><div class="container" data-aos="fade-up" data-aos-delay="100">
+  </div>
+  
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
 
     <div class="row g-4 g-lg-5">
       
@@ -49,7 +51,7 @@
           <h3>Send a Message</h3>
           <p>Have an exciting project you need help with? Fill in the details below and I'll get back to you shortly.</p>
 
-          <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+          <form action="https://formspree.io/f/xzdplqlo" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
             <div class="row gy-4">
 
               <div class="col-md-6">
@@ -66,11 +68,11 @@
 
               <div class="col-12 text-center">
                 <div class="loading">Loading</div>
-                <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
 
-                <button type="submit" class="btn">
-                  Send Message <i class="bi bi-send-fill ms-2" style="font-size: 0.9em;"></i>
+                <button type="submit" class="btn btn-sm btn-secondary d-flex align-items-center justify-content-center mx-auto">
+                  <i class="bi bi-send-fill" style="font-size: 0.9em;"></i>
+                  <span class="ms-2">Send Message</span>
                 </button>
               </div>
 
@@ -85,3 +87,58 @@
   </div>
 
 </section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const form = document.querySelector('.php-email-form');
+    
+    if (form) {
+      form.addEventListener('submit', function(event) {
+        event.preventDefault(); // Stop page reload
+
+        const loading = form.querySelector('.loading');
+        const sentMessage = form.querySelector('.sent-message');
+        const button = form.querySelector('button[type="submit"]');
+
+        // Visual updates
+        loading.style.display = 'block';
+        sentMessage.style.display = 'none';
+        button.disabled = true;
+
+        // Prepare data for Formspree
+        const data = new FormData(form);
+
+        fetch(form.action, {
+          method: form.method,
+          body: data,
+          headers: {
+              'Accept': 'application/json'
+          }
+        })
+        .then(response => {
+          if (response.ok) {
+            loading.style.display = 'none';
+            sentMessage.style.display = 'block';
+            form.reset(); // Clear the form
+          } else {
+            return response.json().then(data => {
+              if (Object.hasOwn(data, 'errors')) {
+                throw new Error(data["errors"].map(error => error["message"]).join(", "));
+              } else {
+                throw new Error('Oops! There was a problem submitting your form');
+              }
+            })
+          }
+        })
+        .catch(error => {
+          loading.style.display = 'none';
+          // Optional: Alert the user or show a specific error div if you have one
+          alert("Error: " + error.message);
+        })
+        .finally(() => {
+          button.disabled = false;
+        });
+      });
+    }
+  });
+</script>
