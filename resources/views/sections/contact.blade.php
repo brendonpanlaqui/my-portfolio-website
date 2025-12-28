@@ -119,7 +119,10 @@
           if (response.ok) {
             loading.style.display = 'none';
             sentMessage.style.display = 'block';
-            form.reset(); // Clear the form
+            form.reset(); // clear the form
+            setTimeout(function() {
+                sentMessage.style.display = 'none';
+            }, 5000);
           } else {
             return response.json().then(data => {
               if (Object.hasOwn(data, 'errors')) {
