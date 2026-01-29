@@ -53,13 +53,16 @@
 
                     <div class="swiper-wrapper">
                       <div class="swiper-slide">
-                        <img src="assets/img/projects/horasko/login-hk.png" alt="Work Hours Tracker App" class="img-fluid">
+                        <img src="assets/img/projects/horasko/login-horasko.png" alt="Login Page" class="img-fluid">
                       </div>
                       <div class="swiper-slide">
-                        <img src="assets/img/projects/horasko/register-hk.png" alt="Work Hours Tracker Dashboard" class="img-fluid">
+                        <img src="assets/img/projects/horasko/register-horasko.png" alt="Register Page" class="img-fluid">
                       </div>
                       <div class="swiper-slide">
-                        <img src="assets/img/projects/horasko/forgot-hk.png" alt="Offline Sync Feature" class="img-fluid">
+                        <img src="assets/img/projects/horasko/forgot-horasko.png" alt="Forgot Password Page" class="img-fluid">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/projects/horasko/settings-horasko.png" alt="Settings Page" class="img-fluid">
                       </div>
                     </div>
 
@@ -70,10 +73,10 @@
 
                 <div class="thumbnail-grid" data-aos="fade-up" data-aos-delay="200">
                   <div class="row g-2 mt-3">
-                    <div class="col-3"><img src="assets/img/projects/horasko/dashboard-hk.png" alt="Dashboard Page" class="img-fluid glightbox"></div>
-                    <div class="col-3"><img src="assets/img/projects/horasko/login-hk.png" alt="Login Page" class="img-fluid glightbox"></div>
-                    <div class="col-3"><img src="assets/img/projects/horasko/register-hk.png" alt="Register Page" class="img-fluid glightbox"></div>
-                    <div class="col-3"><img src="assets/img/projects/horasko/forgot-hk.png" alt="Forgot Password Page" class="img-fluid glightbox"></div>
+                    <div class="col-3"><img src="assets/img/projects/horasko/dashboard-horasko.png" alt="Dashboard Page" class="img-fluid glightbox"></div>
+                    <div class="col-3"><img src="assets/img/projects/horasko/logs-horasko.png" alt="My Logs Page" class="img-fluid glightbox"></div>
+                    <div class="col-3"><img src="assets/img/projects/horasko/cutoff-horasko.png" alt="Cutoff Page" class="img-fluid glightbox"></div>
+                    <div class="col-3"><img src="assets/img/projects/horasko/profile-horasko.png" alt="Profile Page" class="img-fluid glightbox"></div>
                   </div>
                 </div>
 
